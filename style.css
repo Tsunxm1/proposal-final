@@ -16,27 +16,7 @@ body {
     box-sizing: border-box;
     font-size: 24px;
     margin-bottom: 20px;
-
-    display: flex;
-    justify-content: center;
-    align-items: cneter;
-    min-height: 100vh;
   }
- h2
-  { 
-    position: relative;
-    color: #ffffff
-    -webkit-text-stroke: 0.1vw #000000;
-    text-tranform: uppercase;
-  }
- h2::before
-  {
-      content: attr(kaizen);
-      positon: absolute;
-      border-right: 2px solid #000000;
-      overflow: hidden;
-      animation: animate 6s linear infinite;
-
   .no{
     background-color: red;
     border-radius: 4px;
